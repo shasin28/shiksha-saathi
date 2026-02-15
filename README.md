@@ -24,10 +24,6 @@ It also includes runtime UI preferences:
 - `Light/Dark` mode toggle
 - `English/Hindi` language switch for interface labels and actions
 
-### Legacy frontend
-
-The previous vanilla JS SPA remains in `frontend/` and can still be served as static files if needed.
-
 ## Implemented backend upgrades
 
 1. ASR + local language scoring
@@ -155,11 +151,7 @@ npm run dev
 Open:
 - `http://localhost:4200/login`
 
-### Frontend (legacy vanilla SPA)
-```bash
-cd ../frontend
-python3 -m http.server 8080
-```
+
 
 ## Key backend files
 
